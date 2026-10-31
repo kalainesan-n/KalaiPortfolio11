@@ -99,15 +99,20 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onOpenResumeModal }) =
       </motion.nav>
 
       {/* HERO CENTERPIECE: Massive Heading & Subtitle */}
-      <div className="relative z-10 w-full flex flex-col justify-center items-center text-center my-auto px-4 sm:px-6">
+      <div className="relative z-10 w-full flex flex-col justify-center items-center text-center my-auto px-4 sm:px-6 max-w-7xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7, delay: 0.15, ease: [0.25, 0.1, 0.25, 1] }}
-          className="w-full overflow-hidden"
+          className="w-full flex justify-center items-center"
         >
-          <h1 className="hero-heading font-black uppercase tracking-tight leading-none whitespace-nowrap w-full text-[13vw] sm:text-[14vw] md:text-[15.5vw] lg:text-[16.5vw] mt-6 sm:mt-4 md:-mt-5 select-none">
-            Hi, i&apos;m kalainesan.
+          <h1 className="hero-heading font-black uppercase tracking-tight leading-[0.95] w-full text-center select-none py-2">
+            <span className="block sm:inline sm:mr-3 text-[11vw] sm:text-[6.2vw] md:text-[6.8vw] lg:text-[7.2vw]">
+              Hi, i&apos;m
+            </span>
+            <span className="block sm:inline text-[13vw] sm:text-[6.2vw] md:text-[6.8vw] lg:text-[7.2vw]">
+              kalainesan.
+            </span>
           </h1>
         </motion.div>
 
