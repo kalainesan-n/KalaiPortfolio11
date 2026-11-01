@@ -11,14 +11,11 @@ export const Footer: React.FC = () => {
   return (
     <footer className="w-full bg-[#080809] border-t border-[#181b24] px-6 sm:px-10 py-12 text-[#8E9BAE]">
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-8">
-        {/* Name and Mantra */}
+        {/* Name */}
         <div className="text-center md:text-left">
           <h3 className="text-xl sm:text-2xl font-black uppercase tracking-wider text-white select-none">
             Kalainesan Natarajan
           </h3>
-          <p className="text-xs sm:text-sm font-mono tracking-widest text-[#717E91] uppercase mt-1">
-            Built with Curiosity. Powered by Code.
-          </p>
         </div>
 
         {/* Social / Direct Links */}

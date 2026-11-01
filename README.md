@@ -140,8 +140,4 @@ I'm always interested in connecting with developers, collaborating on technical 
 - **LinkedIn:** [Kalainesan Natarajan](https://www.linkedin.com/in/kalainesan-natarajan-748151389/)
 - **Email:** [kalainesannatarajan@gmail.com](mailto:kalainesannatarajan@gmail.com)
 
----
 
-<p align="center">
-  <strong>Built with curiosity. Powered by code.</strong>
-</p>
